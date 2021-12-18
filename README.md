@@ -10,7 +10,7 @@ Learned about **Optional Class**
 
 Functions like **count(), sum(), AVG()** are used wherever necessary 
 
-Implemented 5 projects -  
+### Implemented 5 projects -  
 
 1.
 ***Person.java***               - Class with Private Data Members - generated Constructor, Getters & Setters, and toString.
