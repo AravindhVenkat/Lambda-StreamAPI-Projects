@@ -2,15 +2,15 @@ package Citizenship;
 
 import java.util.*;
 import java.util.stream.Collectors;
-public class Citizenship {
+public class CitizenshipService {
 	
 		static HashMap<Integer,Person> hm = new HashMap<>();
 		
 		//pre-populated values		
-		public Citizenship() {
+		public CitizenshipService() {
 			Person p1 = new Person(101,"Poseidon",23,"Young");
-			Person p2 = new Person(102,"Hades",12,"Child");
-			Person p3 = new Person(103,"Ares",43,"Adult");
+			Person p2 = new Person(102,"Ares",12,"Child");
+			Person p3 = new Person(103,"Hades",43,"Adult");
 			Person p4 = new Person(104,"Zeus",73,"Old");
 
 			hm.put(p1.getId(), p1);
