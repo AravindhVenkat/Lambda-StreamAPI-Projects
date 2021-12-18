@@ -1,7 +1,7 @@
 package PersonAge;
 
 import java.util.*;
-public class PersonAgeApp
+public class PersonAgeService
 {
 	//return the count of persons above the age specified
 	public static int getPersonsAboveAge(int n, List<PersonAge> l)
