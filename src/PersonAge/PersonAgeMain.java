@@ -2,7 +2,7 @@ package PersonAge;
 
 import java.util.*;
 
-public class PersonAgeMain
+public class PersonAgeApp
 {
 	public static void main(String[] args) 
 	{
@@ -14,11 +14,11 @@ public class PersonAgeMain
 		
 		List<PersonAge> al = Arrays.asList(p1,p2,p3,p4,p5);
 		
-		System.out.println("Oldest Age amongst all the persons is : "+PersonAgeApp.getMaxAge(al)+"\n");
+		System.out.println("Oldest Age amongst all the persons is : "+PersonAgeService.getMaxAge(al)+"\n");
 		
-		System.out.println("Number of Persons older than 28 is : "+ PersonAgeApp.getPersonsAboveAge(28, al)+"\n");
+		System.out.println("Number of Persons older than 28 is : "+ PersonAgeService.getPersonsAboveAge(28, al)+"\n");
 		
 		System.out.println("Persons in given range:");
-		PersonAgeApp.getPersonsInAgeRange(25,45,al);
+		PersonAgeService.getPersonsInAgeRange(25,45,al);
 	}
 }
