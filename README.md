@@ -11,7 +11,7 @@
 
 1.
 ***Person.java***               - Class with Private Data Members - generated Constructor, Getters & Setters, and toString.
-***CitizenshipApp.java***       - Class with method calls - Used ArrayList
+***CitizenshipApp.java***       - Class with method calls - Used ArrayList<Person>
 ***CitizenshipService.java***   - filter(), sorted(), count()
 
 2.
