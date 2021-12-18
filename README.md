@@ -1,9 +1,13 @@
 # Lambda-StreamAPI-Projects
 
 filter uses **PREDICATE**       - stream().filter(object->object.condition).()
+
 sorted uses **COMPARATOR**      - stream().sorted((ob1,obj2)->obj1.condition-obj.condition.()
+
 min & max use COMPARATOR        - stream().min((object1,object2)->object1.condition-object2.condition.()
+
 Learned about **Optional Class** 
+
 Functions like **count(), sum(), AVG()** are used wherever necessary 
 
 Implemented 5 projects -  
